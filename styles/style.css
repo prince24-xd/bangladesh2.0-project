@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  background-color: #f1f1f3;
   max-width: 1280px;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
@@ -93,7 +94,7 @@ body {
 }
 .piller-1 {
   padding: 24px;
-  border: 2px solid #D5D6D8;
+  border: 2px solid #d5d6d8;
   border-radius: 5px;
 }
 
@@ -105,32 +106,32 @@ body {
   font-size: 1.28rem;
   font-weight: bold;
 }
-.piller-section{
-    margin-bottom: 80px;
+.piller-section {
+  margin-bottom: 80px;
 }
-.piller-section h1{
-    margin-bottom: 32px;
-    font-size: 2.2rem;
-    font-weight: bold;
+.piller-section h1 {
+  margin-bottom: 32px;
+  font-size: 2.2rem;
+  font-weight: bold;
 }
-.item-container{
+.item-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 32px;
   gap: 24px;
 }
-.item{
-    padding: 24px;
-  border: 2px solid #D5D6D8;
+.item {
+  padding: 24px;
+  border: 2px solid #d5d6d8;
   border-radius: 5px;
 }
-.item h2{
+.item h2 {
   font-size: 1.2rem;
   font-weight: bold;
   margin: 24px 0 12px 0;
 }
-.item p{
+.item p {
   font-size: 1rem;
   font-weight: normal;
   margin-bottom: 24px;
@@ -140,7 +141,7 @@ body {
   font-weight: bold;
   margin-bottom: 24px;
 }
-.vision-para{
+.vision-para {
   font-size: 1rem;
   font-weight: normal;
 }
@@ -149,7 +150,7 @@ body {
   height: 40px;
   border-radius: 4px;
   border: none;
-  background-color: #5490F5;
+  background-color: #5490f5;
   transition: 0.4s;
 }
 .vision-btn1 a {
@@ -161,7 +162,7 @@ body {
 .vision-btn1:hover {
   background-color: #ffffff;
   color: #0e0e0e;
-  border: 2px solid #5490F5;
+  border: 2px solid #5490f5;
 }
 .vision-btn1:hover a {
   color: #000000;
@@ -171,7 +172,7 @@ body {
   height: 40px;
   border-radius: 4px;
   border: none;
-  background-color: #09A15C;
+  background-color: #09a15c;
   transition: 0.4s;
 }
 .vision-btn2 a {
@@ -183,7 +184,7 @@ body {
 .vision-btn2:hover {
   background-color: #ffffff;
   color: #0e0e0e;
-  border: 2px solid #09A15C;
+  border: 2px solid #09a15c;
 }
 .vision-btn2:hover a {
   color: #000000;
@@ -193,7 +194,7 @@ body {
   height: 40px;
   border-radius: 4px;
   border: none;
-  background-color: #FFC239;
+  background-color: #ffc239;
   transition: 0.4s;
 }
 .vision-btn3 a {
@@ -205,12 +206,80 @@ body {
 .vision-btn3:hover {
   background-color: #ffffff;
   color: #0e0e0e;
-  border: 2px solid #FFC239;
+  border: 2px solid #ffc239;
 }
 .vision-btn3:hover a {
   color: #000000;
 }
-.item1{background-color: #81B4FC;}
-.item2{background-color: #C6E4D6;}
-.item3{background-color: #F7EBCF;}
-.vision-section{margin-bottom: 32px;}
+.item1 {
+  background-color: #81b4fc;
+}
+.item2 {
+  background-color: #c6e4d6;
+}
+.item3 {
+  background-color: #f7ebcf;
+}
+.vision-section {
+  margin-bottom: 32px;
+}
+.opinion-section{
+  margin-bottom: 80px;
+}
+.opinion-section-heading{
+  margin-bottom: 24px;
+}
+.option-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 32px;
+}
+.option1{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #f1f1f3;
+  border-left: 2px solid #f1f1f3;
+  border-right: 2px solid #f1f1f3;
+}
+.option1 p {
+  margin: 30px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.lastoption{
+  border-bottom: 2px solid #f1f1f3;
+}
+#select-item {
+  margin: 20px;
+  background-color: #c6e4d6;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 5px;
+}
+.optionx {
+  background-color: #c6e4d6;
+}
+.opinion-submit-btn{
+  text-align: center;
+  background-color: #c6e4d6;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.opinion-submit-btn button{
+    width: 122px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+
+    background-color: #2c9767;
+    transition: 0.4s;
+}
+.opinion-submit-btn button a{
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+}
