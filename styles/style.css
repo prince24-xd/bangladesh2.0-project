@@ -223,10 +223,10 @@ body {
 .vision-section {
   margin-bottom: 32px;
 }
-.opinion-section{
-  margin-bottom: 80px;
+.opinion-section {
+  margin-bottom: 25px;
 }
-.opinion-section-heading{
+.opinion-section-heading {
   margin-bottom: 24px;
 }
 .option-wrapper {
@@ -236,7 +236,7 @@ body {
   border-radius: 10px;
   padding: 32px;
 }
-.option1{
+.option1 {
   display: flex;
   justify-content: space-between;
   border-top: 2px solid #f1f1f3;
@@ -248,7 +248,7 @@ body {
   font-size: 1rem;
   font-weight: 600;
 }
-.lastoption{
+.lastoption {
   border-bottom: 2px solid #f1f1f3;
 }
 #select-item {
@@ -262,24 +262,146 @@ body {
 .optionx {
   background-color: #c6e4d6;
 }
-.opinion-submit-btn{
+.opinion-submit-btn {
   text-align: center;
-  background-color: #c6e4d6;
   margin-top: 20px;
   border-radius: 7px;
 }
-.opinion-submit-btn button{
-    width: 122px;
-    height: 40px;
-    border-radius: 4px;
-    border: none;
-
-    background-color: #2c9767;
-    transition: 0.4s;
+.opinion-submit-btn button {
+  width: 122px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: #2c9767;
+  transition: 0.4s;
 }
-.opinion-submit-btn button a{
-    color: #ffffff;
-    font-size: 1rem;
-    text-decoration: none;
-    font-weight: 700;
+.opinion-submit-btn button a {
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+.news-item {
+  padding: 45px;
+  display: flex;
+  height: 400px;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+.news-item :first-child {
+  border-radius: 15px;
+}
+.news-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.news-text img {
+  height: 40px;
+  width: 135px;
+  margin-bottom: 12px;
+}
+.news-text h5 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+.news-text p {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+.news-text button {
+  width: 122px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: #2c9767;
+}
+.news-text button a {
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+.news-item-2 {
+  flex-direction: row-reverse;
+  margin: 24px 0;
+}
+.newshead{
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.newspara{
+  font-size: .8rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  max-height: 620px;
+  background-color: #c6e4d6;
+  padding: 80px 250px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+}
+.subscribe :first-child {
+  font-size: 2.1rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.subscribe p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+#subscribe-btn {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  font-weight: normal;
+  width: 750px;
+  height: 55px;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+}
+.sub-btn {
+  width: 122px;
+  height: 55px;
+  border-radius: 4px;
+  border: none;
+  background-color: #2c9767;
+  position: absolute;
+  right: 265px;
+  top: 208px;
+}
+#sub-btn-a {
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+.footer-heading{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2);;
+  padding: 15px 0;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 50px;
 }
